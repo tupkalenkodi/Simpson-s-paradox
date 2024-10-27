@@ -57,7 +57,7 @@ df_2 |>
   ggplot(aes(x = Treatment, y = Success_Rate, fill = Treatment)) +
   geom_bar(stat = "identity", position = position_dodge(), width = 0.12) +
   labs(title = "Success Rate by Treatment",
-       x = "Stone Size",
+       x = "Treatment Type",
        y = "Success Rate") +
   scale_fill_manual(values = c("Treatment A" = "black",
                                "Treatment B" = "red")) +
